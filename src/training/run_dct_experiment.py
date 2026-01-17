@@ -70,3 +70,16 @@ optimizer = torch.optim.Adam(
     weight_decay=1e-4
 )
 
+
+
+from training.train_dct import train
+
+train_losses, val_losses = train(
+    model=model,
+    train_loader=train_loader,
+    val_loader=val_loader,
+    optimizer=optimizer,
+    criterion=criterion,
+    device=device,
+    num_epochs=25
+)
