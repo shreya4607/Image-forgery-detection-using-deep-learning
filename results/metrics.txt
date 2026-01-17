@@ -1,0 +1,6 @@
+## Experiments
+| Method | Accuracy | AUC |
+|------|---------|-----|
+| CNN (RGB) | ~0.83 | ~0.88 |
+| CNN + ELA | ~0.83 | ~0.89 |
+| CNN + DCT | ~0.78 | ~0.85 |
